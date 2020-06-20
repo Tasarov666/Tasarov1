@@ -107,12 +107,12 @@ def version():
 	"""
 	print "+----------------------------------------------------------------------+"
     	print "| "+ sys.argv[0] + " Version "+ vernum +"                                      |"
-	print "| This program is free software; you can redistribute it and/or modify |"
-	print "| it under the terms of the GNU General Public License as published by |"
-	print "| the Free Software Foundation; either version 2 of the License, or    |"
-	print "| (at your option) any later version.                                  |"
+	print "|    PUTANGINA MO JEPOY DIZON!! NAPAKABOBO MO! PAKYU KA! ULOL!!!!!!    |"
 	print "|                                                                      |"
-	print "|   TASAROV, ANONYMOUS PHILIPPINES                                     |"
+	print "|  SA's ARMY, *** CYBER ARMY, ANONYMOUS PH, ZEDD, SEVENTH SENSE, ATOR  |"
+	print "|                                                                      |"
+	print "| :May my enemies live long enough to see my success:                  |"
+	print "|                                          TASAROV, ANONYMOUS ***      |"
 	print "+----------------------------------------------------------------------+"
 	print
 
@@ -123,13 +123,13 @@ def usage():
 	No parameters are needed.
 	"""
 	print "+----------------------------------------------------------------------+"
-	print "| "+ sys.argv[0] + " Version "+ vernum +"                                      |"
-	print "| This program is free software; you can redistribute it and/or modify |"
-	print "| it under the terms of the GNU General Public License as published by |"
-	print "| the Free Software Foundation; either version 2 of the License, or    |"
-	print "| (at your option) any later version.                                  |"
+    	print "| "+ sys.argv[0] + " Version "+ vernum +"                                      |"
+	print "|    PUTANGINA MO JEPOY DIZON!! NAPAKABOBO MO! PAKYU KA! ULOL!!!!!!    |"
 	print "|                                                                      |"
-	print "|   TASAROV, ANONYMOUS PHILIPPINES                                     |"
+	print "|  SA's ARMY, *** CYBER ARMY, ANONYMOUS PH, ZEDD, SEVENTH SENSE, ATOR  |"
+	print "|                                                                      |"
+	print "| :May my enemies live long enough to see my success:                  |"
+	print "|                                          TASAROV, ANONYMOUS ***      |"
 	print "+----------------------------------------------------------------------+"
 	print 
 	print "\nUsage: %s <options>" % sys.argv[0]
@@ -149,7 +149,7 @@ def usage():
         print "  -U, --usuario                        User name for authentication"
         print "  -P, --password                       Request password for authentication"
 	print
-	print "Example: python crawler.py -u http://www.example.com -w -C 10 -i "
+	print "Example: python TasarovCrawler.py -u http://www.example.com -w -C 10 -i "
 	print
 	sys.exit(1)
 
@@ -737,7 +737,7 @@ def indexing_search(usuario, password,links_vector,output_filename):
 					if response==1:
 						continue
 					if response==0:
-						print '[!] Skypping the rest of the directories'
+						print '[!] Skipping the rest of the directories'
 						break
 
 			except KeyboardInterrupt:
